@@ -1,3 +1,5 @@
+const prompt = require("prompt-sync")();
+
 const largura = parseFloat(prompt("Largura = "));
 const comprimento = parseFloat(prompt("Comprimento = "));
 const valorMetro = parseFloat(prompt("Valor do metro quadrado = "));
